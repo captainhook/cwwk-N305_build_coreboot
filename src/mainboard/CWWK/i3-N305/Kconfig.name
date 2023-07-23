@@ -1,4 +1,4 @@
 ## SPDX-License-Identifier: GPL-2.0-only
 
-config BOARD_PROTECTLI_VP2420
-	bool "VP2420"
+config BOARD_CWWK_i3-N305
+	bool "CWWK_i3-N305"
