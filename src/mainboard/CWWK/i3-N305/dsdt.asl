@@ -20,7 +20,7 @@ DefinitionBlock(
 		Device (PCI0)
 		{
 			#include <soc/intel/common/block/acpi/acpi/northbridge.asl>
-			#include <soc/intel/elkhartlake/acpi/southbridge.asl>
+			#include <soc/intel/alderlake/acpi/southbridge.asl>
 		}
 	}
 
