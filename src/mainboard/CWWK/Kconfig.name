@@ -1,0 +1,2 @@
+config VENDOR_CWWK
+	bool "CWWK"

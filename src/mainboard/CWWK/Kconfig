@@ -1,0 +1,15 @@
+if VENDOR_CWWK
+
+choice
+	prompt "Mainboard model"
+
+source "src/mainboard/CWWK/*/Kconfig.name"
+
+endchoice
+
+source "src/mainboard/CWWK/*/Kconfig"
+
+config MAINBOARD_VENDOR
+	default "CWWK"
+
+endif # VENDOR_CWWK
