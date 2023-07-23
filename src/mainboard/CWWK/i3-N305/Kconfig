@@ -1,10 +1,10 @@
 ## SPDX-License-Identifier: GPL-2.0-only
 
-if BOARD_PROTECTLI_VP2420
+if BOARD_CWWK_i3-N305
 
 config BOARD_SPECIFIC_OPTIONS
 	def_bool y
-	select SOC_INTEL_ELKHARTLAKE
+	select SOC_INTEL_ALDERLAKE
 	select BOARD_ROMSIZE_KB_16384
 	select HAVE_ACPI_RESUME
 	select HAVE_ACPI_TABLES
@@ -15,16 +15,16 @@ config BOARD_SPECIFIC_OPTIONS
 	select MEMORY_MAPPED_TPM
 
 config MAINBOARD_DIR
-	default "protectli/vault_ehl"
+	default "CWWK/i3-N305"
 
 config MAINBOARD_PART_NUMBER
-	default "VP2420"
+	default "CWWK_i3-N305"
 
 config MAINBOARD_FAMILY
-	default "Vault Pro"
+	default "CWWK_i3-N305"
 
 config MAX_CPUS
-	default 4
+	default 8
 
 config CBFS_SIZE
 	default 0x900000
@@ -53,4 +53,4 @@ config VBOOT_SLOTS_RW_A
 config FMDFILE
 	default "src/mainboard/\$(CONFIG_MAINBOARD_DIR)/vboot-rwa.fmd" if VBOOT && VBOOT_SLOTS_RW_A
 
-endif # BOARD_PROTECTLI_VP2420
+endif # BOARD_CWWK_i3-N305
