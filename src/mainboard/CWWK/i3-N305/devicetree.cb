@@ -1,5 +1,5 @@
 
-chip soc/intel/elkhartlake
+chip soc/intel/alderlake
 
 	#register "enable_vtd" = "1"
 
