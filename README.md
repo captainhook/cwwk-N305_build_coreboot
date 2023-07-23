@@ -1,3 +1,3 @@
-Used to build coreboot for the Protectli Vaults
+# WIP
 
-To begin please select the branch for the vault that you would like to build.
+Used to build coreboot for the CWWK i3-N305
