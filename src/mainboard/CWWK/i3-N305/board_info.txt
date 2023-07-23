@@ -1,5 +1,5 @@
-Vendor name: Protectli
-Board name: VP2420
+Vendor name: CWWK
+Board name: i3-N305
 Category: sbc
 ROM protocol: SPI
 ROM socketed: n
